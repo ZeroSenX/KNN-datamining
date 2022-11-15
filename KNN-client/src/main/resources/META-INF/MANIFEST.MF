@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: map.knnclient.Launcher
+Class-Path: javafx-controls-18.jar javafx-fxml-18-win.jar javafx-graphic
+ s-18-win.jar controlsfx-11.1.1.jar javafx-base-18.jar javafx-swt.jar ja
+ vafx.web.jar javafx.base.jar javafx.fxml.jar javafx.media.jar javafx.sw
+ ing.jar javafx.controls.jar javafx.graphics.jar javafx-controls-18-win.
+ jar javafx-graphics-18.jar javafx-base-18-win.jar javafx-fxml-18.jar
+

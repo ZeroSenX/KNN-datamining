@@ -1,0 +1,48 @@
+#mainMessage
+{
+    -fx-alignment: center;
+    -fx-font-size: 20px;
+}
+
+#vBox1
+{
+    -fx-alignment: center;
+    -fx-spacing: 20;
+}
+
+#hBox1
+{
+    -fx-alignment: center;
+    -fx-spacing: 20;
+}
+
+#button1 {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: #00897B;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#button1:hover {
+    -fx-background-color: #4DB6AC;
+
+}
+
+#choiseBox .menu-item:focused{
+    -fx-background-color: #4DB6AC;
+
+}
+
+#choiseBox .context-menu{
+    -fx-background-color: #f8e6e9;
+}
+#choiseBox .focus{
+
+}
+#choiseBox{
+    -fx-mark-color: #00897B;
+}
+
+#attribute{
+    -fx-font-size: 17px;
+}
