@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KNN-client/KNN-client.iml" filepath="$PROJECT_DIR$/KNN-client/KNN-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/KNN-datamining.iml" filepath="$PROJECT_DIR$/.idea/KNN-datamining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KNN-server/KNN-server.iml" filepath="$PROJECT_DIR$/KNN-server/KNN-server.iml" />
+    </modules>
+  </component>
+</project>
