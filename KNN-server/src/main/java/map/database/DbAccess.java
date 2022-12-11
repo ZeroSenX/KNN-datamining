@@ -23,21 +23,21 @@ public class DbAccess {
 	/**
 	 * SERVER String che rappresenta l'indirizzo del database
 	 */
-	private String SERVER;
+	private String SERVER = "localhost";
 	/**
 	 * PORT int che indica la porta d'accesso
 	 */
-	private int PORT;
+	private int PORT = 3306;
 	/**
 	 * DATABASE String che indica il nome del database
 	 */
-	private String DATABASE;
+	private String DATABASE = "Map";
 	/**
 	 * USER_ID String che indica l'utente di accesso al db
 	 * PASSWORD String che indica la password di accesso al db
 	 */
-	private String USER_ID;
-	private String PASSWORD;
+	private String USER_ID = "Student";
+	private String PASSWORD = "map";
 	/**
 	 * conn Connection oggetto che gestisce la connessione con il db sql
 	 */
@@ -47,12 +47,6 @@ public class DbAccess {
 	 * Inizializza una connessione al DB
 	 */
 	public DbAccess() throws DatabaseConnectionException{
-		Dotenv config = Dotenv.configure().load();
-		SERVER = config.get("SERVER");
-		PORT = Integer.parseInt(config.get("PORT"));
-		DATABASE = config.get("DATABASE");
-		USER_ID = config.get("USER_ID");
-		PASSWORD = config.get("PASSWORD");
 
 		String connectionString =  DBMS + "://" + SERVER + ":" + PORT + "/" + DATABASE
 				+ "?user=" + USER_ID + "&password=" + PASSWORD + "&serverTimezone=UTC";
